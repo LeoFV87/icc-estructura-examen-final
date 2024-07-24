@@ -2,13 +2,15 @@ package test;
 
 import org.junit.jupiter.api.Test;
 
-import main.controllers.EstudianteController;
-import main.models.Estudiante;
+//import main.controllers.EstudianteController;
+//import main.models.Estudiante;
 
 import java.util.List;
 import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import main.EstudianteController;
+import main.Estudiante;
 
 public class EstudianteControllerTest {
 

@@ -1,6 +1,8 @@
 package test;
 
-import main.controllers.Ejercicios;
+import main.Ejercicios;
+
+
 
 import java.util.Map;
 
