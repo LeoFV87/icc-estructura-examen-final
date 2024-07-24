@@ -36,16 +36,17 @@ public class EstudianteController {
 
 
     private String obtenerCategoria (int calificacion){
-    
+        //INICIALIZACION DE CATEGORIA COMO STRING
         String categoria="";
+
         if (calificacion>=90 && calificacion<=100){
             categoria="A";
-        } else if (calificacion>=80 && calificacion<90){
-             categoria= "B";
-        } else if (calificacion>=70 && calificacion<80){
-             categoria= "C";
-        } else if (calificacion>=60 && calificacion<70){
-            categoria = "E";
+        } else if (calificacion >= 80) {
+            categoria= "B";
+        } else if (calificacion >= 70) {
+            categoria= "C";
+        } else if (calificacion >= 60) {
+            categoria= "D";
         } else {
             categoria= "F";
         }
